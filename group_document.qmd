@@ -9,6 +9,10 @@ format: html
 
 ## Rasmus
 
+```{r}
+cat("\U0001F60E\n")
+```
+
 ## Marcos
 
 ## Sara
