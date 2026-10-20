@@ -19,6 +19,14 @@ Hello
 
 ```{r}
 cat("\U0001F60E\n")
+
+```
+
+### New analysis
+
+```{r}
+print("Hey hey hey")
+
 ```
 
 ## Marcos
