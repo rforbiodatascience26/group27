@@ -9,10 +9,18 @@ Hello
 
 ## Jonas
 
+### New Feature
+
 ```{r}
 2+
   2+
-  3+3
+  3+3 *2 +10 -2*1
+```
+
+wobbegongongongoongogngogngoggn
+
+```{r}
+bingo <- 2
 ```
 
 ## Rasmus
