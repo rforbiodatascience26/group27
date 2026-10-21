@@ -52,7 +52,7 @@ pca_fit %>%
   geom_text(
     aes(label = column),
     hjust = 1, nudge_x = -0.02, 
-    color = "limegreen"
+    color = "steelblue"
   ) +
   xlim(-1.25, .5) + ylim(-.5, 1) +
   coord_fixed() + # fix aspect ratio to 1:1
