@@ -62,11 +62,13 @@ pca_fit |>
   theme_cowplot() + background_grid()
 ```
 
+This plot shows a clear difference between malignant and benign given the first two principle components.
+
 ```{r}
 pca_fit %>%
   tidy(matrix = "eigenvalues") %>%
   ggplot(aes(PC, percent)) +
-  geom_col(fill = "green", alpha = 0.8) +
+  geom_col(fill = "limegreen", alpha = 0.8) +
   scale_x_continuous(breaks = 1:9) +
   scale_y_continuous(
     labels = scales::percent_format(),
