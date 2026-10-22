@@ -61,8 +61,6 @@ pca_fit |>
   theme_cowplot() + background_grid()
 ```
 
-This plot shows a clear difference between malignant and benign given the first two principle components.
-
 ```{r}
 pca_fit |> 
   tidy(matrix = "rotation")
@@ -89,8 +87,6 @@ pca_fit %>%
   theme_grey(12)
 ```
 
-```{r}
-
-```
-
 ## Conclusion
+
+As expected, the plots shows a clear difference between malignant and benign given by the first principle component.
