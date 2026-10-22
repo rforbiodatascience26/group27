@@ -1,4 +1,5 @@
 ---
+
 title: "Lab 07 Assignment: Group 27"
 format:
   html:
@@ -33,6 +34,7 @@ biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
 
 ## Data description
+
 
 ## PCA
 
@@ -82,5 +84,3 @@ pca_fit %>%
 ```{r}
 
 ```
-
-## Conclusion
