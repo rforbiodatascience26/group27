@@ -20,7 +20,11 @@ s263502, Marcos Ortiz Prieto
 
 ## Background
 
+Malignant tumors are cancerous, characterized by uncontrolled growth, the ability to invade surrounding tissues, and the capacity to spread to distant parts of the body. In contrast, benign tumors are non-cancerous, typically grow slowly, remain contained within their original location, and do not invade other tissues or spread. Breast tumor biopsies are performed on small tissue samples to determine if a suspicious breast tumor is benign or malignant.
+
 ## Aim
+
+The aim of the report is to showcase that there is a difference between the attributes of benign and malignant breast tumors.
 
 ## Loading Data and Libraries
 
@@ -33,6 +37,8 @@ biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
 
 ## Data description
+
+The biopsy data set comes originally from the MASS package. It is a breast cancer data set from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. He assessed biopsies of breast tumors for 699 patients; each nine attributes was scored on a scale from 1 to 10. The true outcome (benign/malignant) is also known.
 
 ## PCA
 
@@ -55,8 +61,6 @@ pca_fit |>
   theme_cowplot() + background_grid()
 ```
 
-This plot shows a clear difference between malignant and benign given the first two principle components.
-
 ```{r}
 pca_fit |> 
   tidy(matrix = "rotation")
@@ -77,6 +81,11 @@ pca_fit |>
   theme_grey(12)
 ```
 
+<<<<<<< HEAD
 This plot shows how much each PC explains the data. Here we can see that PC1 explains roughly 65 % of the data while the rest of the PCs all explain less than 10. In the first plot it was clear that PC1 showed a pretty clear difference between malignant and benign.
 
+=======
+>>>>>>> 248aa6fa116733d5abe7fa3e9a84a94850ba5606
 ## Conclusion
+
+As expected, the plots shows a clear difference between malignant and benign given by the first principle component.
