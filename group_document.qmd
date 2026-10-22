@@ -5,7 +5,11 @@ format: html
 
 ## Marie
 
-Hello
+### New feature
+
+```{r}
+2+2
+```
 
 ## Jonas
 
