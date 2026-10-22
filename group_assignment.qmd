@@ -81,11 +81,9 @@ pca_fit |>
   theme_grey(12)
 ```
 
-<<<<<<< HEAD
 This plot shows how much each PC explains the data. Here we can see that PC1 explains roughly 65 % of the data while the rest of the PCs all explain less than 10. In the first plot it was clear that PC1 showed a pretty clear difference between malignant and benign.
 
-=======
->>>>>>> 248aa6fa116733d5abe7fa3e9a84a94850ba5606
+
 ## Conclusion
 
 As expected, the plots shows a clear difference between malignant and benign given by the first principle component.
