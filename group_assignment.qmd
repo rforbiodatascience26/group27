@@ -36,6 +36,8 @@ biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 
 ## PCA
 
+Principal Component Analysis is a computational method that aims to project high dimensional data points (multiple variables) into a lower dimensional space explained by the principal components, which usually 2 dimensions for ease of visualization. The principal components are chosen to explain where the highest variance is in the data.
+
 ```{r}
 pca_fit <- biopsy |>  
   select(where(is.numeric)) |>  # retain only numeric columns
@@ -52,6 +54,8 @@ pca_fit |>
   ) +
   theme_cowplot() + background_grid()
 ```
+
+This plot shows a clear difference between malignant and benign given the first two principle components.
 
 ```{r}
 pca_fit |> 
