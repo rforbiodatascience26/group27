@@ -62,6 +62,8 @@ pca_fit |>
   theme_cowplot() + background_grid()
 ```
 
+This plot shows a clear difference between malignant and benign given the first two principle components.
+
 ```{r}
 pca_fit %>%
   tidy(matrix = "eigenvalues") %>%
@@ -75,9 +77,7 @@ pca_fit %>%
   theme_minimal_hgrid(12)
 ```
 
-
 This plot shows how much each PC explains the data. Here we can see that PC1 explains roughly 65 % of the data while the rest of the PCs all explain less than 10. In the first plot it was clear that PC1 showed a pretty clear difference between malignant and benign.
-
 
 ## Conclusion
 
