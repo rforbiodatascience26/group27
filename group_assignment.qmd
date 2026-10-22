@@ -1,8 +1,26 @@
 ---
-title: "group_assignment_7"
-format: html
+title: "Lab 07 Assignment: Group 27"
+format:
+  html:
+    embed-resources: true
 editor: visual
 ---
+
+## Group Members
+
+s234677, Marie Holldorff
+
+s263478, Sara K. Berhau
+
+s224191, Jonas Branner
+
+s235408, Rasmus Soegaard Nielsen
+
+s263502, Marcos Ortiz Prieto
+
+## Background
+
+## Aim
 
 ## Loading Data and Libraries
 
@@ -13,6 +31,8 @@ library("cowplot")
 
 biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
+
+## Data description
 
 ## PCA
 
@@ -62,3 +82,5 @@ pca_fit %>%
 ```{r}
 
 ```
+
+## Conclusion
