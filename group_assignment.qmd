@@ -18,6 +18,10 @@ s235408, Rasmus Soegaard Nielsen
 
 s263502, Marcos Ortiz Prieto
 
+## Background
+
+## Aim
+
 ## Loading Data and Libraries
 
 ```{r}
@@ -27,6 +31,8 @@ library("broom")
 library("cowplot")
 biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
+
+## Data description
 
 ## PCA
 
@@ -76,3 +82,5 @@ pca_fit %>%
 ```{r}
 
 ```
+
+## Conclusion
